@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>معرض الصور</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cairo', sans-serif;
+     background-color:beige;
+      color: #222;
+      direction: rtl;
+    }
+    header {
+     background-color: darkslategrey;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+      size: 6rem;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    }
+    footer {
+      background-color: #f2f2f2;
+      color: #666;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>معرض الصور</h1>
+<p>صور لمواقع مطوره بواسطه عمر سمير</p>
+  </header>
+
+  <div class="gallery">
+    <img src="Screenshot (28).png" alt="صورة 1">
+    <img src="Screenshot (29).png" alt="صورة 2">
+    <img src="Screenshot (30).png" alt="صورة 3">
+    <img src="Screenshot (34).png" alt="صورة 4">
+    <img src="Screenshot (37).png" alt="صورة 5">
+    <img src="Screenshot (38).png" alt="صورة 6">
+    <img src="Screenshot (36).png">
+    <img src="Screenshot (39).png">
+    <img src="Screenshot (40).png">
+    <img src="Screenshot (41).png">
+    <img src="Screenshot (121).png">
+    <img src="Screenshot (125).png">
+    <img src="Screenshot (126).png">
+    <img src="o (1).png">
+    <img src="o (2).png">
+    <img src="o (3).png">
+  </div>
+
+  <footer>
+    جميع الحقوق محفوظة © 2025
+  </footer>
+
+</body>
+</html>
